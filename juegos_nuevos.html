@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlejoGames - Juegos Nuevos</title>
+    <link rel="stylesheet" href="mi sitio web - actividad 6.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <nav class="position-fixed w-100 navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="juegos.html">Juegos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="DLC.html">DLC</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="juegos_nuevos.html">Juegos mas recientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="games_plays.html">Proximos lanzamientos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="trucos.html">Trucos y curiosidades</a>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <!--aplicando position al menu de navegacion
+    <div class="p_menu">
+        <nav class="menu_nav"> 
+            <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="juegos.html">Juegos</a></li>
+                    <li><a href="DLC.html">DLC</a></li>
+                    <li><a href="juegos_nuevos.html">Juegos mas recientes</a></li>
+                    <li><a href="games_plays.html">Proximos lanzamientos</a></li>
+                    <li><a href="trucos.html">Trucos y curiosidades</a></li>
+            </ul>
+        </nav>
+    </div>
+    -->
+
+    <div class="div_img">
+        <img class="img_logo" height="280px" src="banner.jpg" alt="imagen_logo">
+    </div>
+    <h1 id="titulo_principal" class="text-white display-5">AlejoGames</h1>
+
+<table id="titulo_table" class="text-dark bg-dark-subtle" style="width:100%;  color:white;">
+    <tr id="titulo_cuadro">
+        <th class="columna">Nombre del juego</th>
+        <th class="columna">Categoria</th>
+        <th class="columna">Tienda de lanzamiento</th>
+    </tr>
+    <tr id="texto_cuadro">
+        <td>Uncharted</td>
+        <td>Aventura</td>
+        <td><a class="fw-bold link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://store.steampowered.com/agecheck/app/976730/"  target="_blank">Playstation</a></td>
+        
+    </tr>
+    
+    <tr id="texto_cuadro">
+        <td>The last to us</td>
+        <td>Zombies, accion</td>
+        <td><a class="fw-bold link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.ubisoft.com/es-mx/game/assassins-creed/brotherhood" target="_blank">Playstation</a></td>
+    </tr>
+    <tr id="texto_cuadro">
+        <td>The horizon zero dawn</td>
+        <td>FPS</td>
+        <td><a class="fw-bold link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.ea.com/es-es/games/crysis" target="_blank">Guerrilla Games</a></td>
+    </tr>
+    <tr id="texto_cuadro">
+        <td>God of war Ragnarok</td>
+        <td>Aventura, Mundo abierto</td>
+        <td><a class="fw-bold link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"href="https://www.residentevil.com/re4/es/" target="_blank">Playstation</a></td>
+    </tr>
+    <tr id="texto_cuadro">
+        <td>Need for Speed Heat</td>
+        <td>Carreras</td>
+        <td><a class="fw-bold link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.ea.com/es-es/games/need-for-speed/need-for-speed-most-wanted" target="_blank">DLC Black List</a></td>
+    </tr>
+    <tr id="texto_cuadro">
+        <td>Grand Theft Auto 5</td>
+        <td>Mundo Abierto</td>
+        <td><a class="fw-bold link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"href="https://www.fortnite.com/?lang=es-ES" target="_blank">Rockstar Games</a></td>
+    </tr>
+    <tr id="texto_cuadro">
+        <td>Cyberpunk 2077</td>
+        <td>Aventura</td>
+        <td><a class="fw-bold link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.cyberpunk.net/us/es/" target="_blank">CD projekt</a></td>
+    </tr>
+</table>
+
+    <footer class="pie_pagina">
+        AlejoGames - 2023
+    </footer>
+</body>
+</html>
+    
